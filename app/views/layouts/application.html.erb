@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    var imagePath = '<%= ENV['CDN_HOST'] %>';
+  </script>
   <title>GettingStarted</title>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
